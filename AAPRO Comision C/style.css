@@ -1,0 +1,31 @@
+html{ font-size: 62,5%}
+li{
+    list-style: none;
+}
+nav{
+    background-color: rgb(153, 53, 181);
+    color: white;
+}
+footer{
+    background-color:rgb(153, 53, 181);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+/* EJERCICIO CLASE 4: EN HTML NEGRITA A LOS DIAS Y CURSIVA A LOS HORARIOS, EN CSS UN COLOR Y DIFERENTE TAMAÑO A CADA DIA Y A LOS HORARIOS SOLO EL COLOR */
+
+/*PAGINA HORARIOS*/
+table{ background-color: rgba(235, 225, 225, 0.453);
+
+}
+
+.dia{ color:purple;
+   font-size: 1,6em}
+.finde{ color:rgb(203, 124, 188);
+   font-size:1,6em}
+#horario{ color:purple}
+#cerrado{ color:rgb(203, 124, 188)}
