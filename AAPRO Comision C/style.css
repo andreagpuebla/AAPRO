@@ -9,6 +9,7 @@ header{width: 100%;
 nav{
     background-color: rgb(153, 53, 181);
     color: white;
+    list-style: none;
     
 }
 footer{
