@@ -5,10 +5,14 @@ li{
 nav{
     background-color: rgb(153, 53, 181);
     color: white;
+    width: 100%;
+    hieght: 20px
 }
 footer{
     background-color:rgb(153, 53, 181);
     color: white;
+    width: 100%;
+    hieght: 50px
 }
 
 a{
