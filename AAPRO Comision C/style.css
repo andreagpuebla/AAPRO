@@ -2,17 +2,20 @@ html{ font-size: 62,5%}
 li{
     list-style: none;
 }
+header{width: 100%;
+      height: 20px
+    background-color: rgb(153, 53, 181)
+      }
 nav{
     background-color: rgb(153, 53, 181);
     color: white;
-    width: 100%;
-    hieght: 20px
+    
 }
 footer{
     background-color:rgb(153, 53, 181);
     color: white;
     width: 100%;
-    hieght: 50px
+    height: 50px
 }
 
 a{
