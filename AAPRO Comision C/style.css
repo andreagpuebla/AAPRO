@@ -33,3 +33,7 @@ table{ background-color: rgba(235, 225, 225, 0.453);
    font-size:1,6em}
 #horario{ color:purple}
 #cerrado{ color:rgb(203, 124, 188)}
+/*Clase 5*/
+input{
+    border: 2px purple solid
+}
