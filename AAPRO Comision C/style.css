@@ -41,3 +41,7 @@ table{ background-color: rgba(235, 225, 225, 0.453);
 input{
     border: 2px purple solid
 }
+.enviar{
+    background-color: rgb(153, 53, 181);
+    color: white
+}
