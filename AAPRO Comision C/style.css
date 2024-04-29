@@ -1,10 +1,10 @@
-html{ font-size: 62,5%}
+html{ font-size: 62,5%;}
 li{
     list-style: none;
 }
 header{width: 100%;
-      height: 20px;
-    background-color: rgb(153, 53, 181)
+      height: 20%;
+    background-color: rgb(153, 53, 181);
       }
 nav{
     background-color: rgb(153, 53, 181);
@@ -12,16 +12,21 @@ nav{
     list-style: none;
     
 }
+body{
+    width 100%;
+
+
+}
 footer{
     background-color:rgb(153, 53, 181);
     color: white;
     width: 100%;
-    height: 100px
+    height: 30%;
 }
 
 a{
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 /* EJERCICIO CLASE 4: EN HTML NEGRITA A LOS DIAS Y CURSIVA A LOS HORARIOS, EN CSS UN COLOR Y DIFERENTE TAMAÑO A CADA DIA Y A LOS HORARIOS SOLO EL COLOR */
@@ -42,10 +47,10 @@ table{ background-color: rgba(235, 225, 225, 0.453);
 
 /*Clase 5*/
 input{
-    border: 2px purple solid
+    border: 2px purple solid;
 }
 .enviar{
     background-color: rgb(153, 53, 181);
-    color: white
-}
+    color: white;
 
+}
