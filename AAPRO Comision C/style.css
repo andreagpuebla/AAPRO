@@ -1,23 +1,68 @@
-html{ font-size: 62,5%;}
-li{
-    list-style: none;
+/* html{
+width:100%;
+height:100%;
+margin:0px;
 }
+body{
+margin:auto;
+height:100%;
+width:100%;
+ }*/
+
+
+
+/* HEADER Y LINEAMIENTOS GENERALES*/
+html{ font-size: 62,5%;
+    width:100%;
+height:100%;
+margin:0px;
+ }
+ *{
+    font-family: "roboto", sans-serif;
+ }
+ body {margin:auto;
+    height:100%;
+    width:100%;}
+  
 header{width: 100%;
-      height: 20%;
-     background-color: rgb(153, 53, 181);
-      }
-nav{
-    background-color: rgb(153, 53, 181);
-    color: white;
-    list-style: none;
-    
+      height: 150px;
+     background-color: black;
+    display: flex;
+justify-content: space-between;}
+     
+
+ul{font-weight: bold;
+    display: flex;
+    align-items: center;  
 }
 
+li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+.logo{width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*me queda el footer pegado a el header, por mas de que no tenga nada en el main, se puede hacer que quede al pie o al final de la pagina y que en el medio quede vacio*/
+
 footer{
-    background-color:rgb(153, 53, 181);
+    background-color:black;
     color: white;
     width: 100%;
-    height: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
 }
 
 a{
@@ -25,27 +70,81 @@ a{
     color: white;
 }
 
+/*INDEX*/
+
+.h1index{
+    float: left;
+    margin-right: 20px;
+}
+
 /* EJERCICIO CLASE 4: EN HTML NEGRITA A LOS DIAS Y CURSIVA A LOS HORARIOS, EN CSS UN COLOR Y DIFERENTE TAMAÑO A CADA DIA Y A LOS HORARIOS SOLO EL COLOR */
 
 /*PAGINA HORARIOS*/
-table{ background-color: rgba(235, 225, 225, 0.453);
 
+/*no puedo ubicar en el centro la tabla y no encuentro porque, intente darle el display flex a table y no funciono, a tr se me desacomodo, intente ponerles div y tampoco
+*/
+
+
+table{ height: 200px;
+    width: 150px;
+    background-color: rgba(235, 225, 225, 0.453);
+    
+   
 }
-
-.dia{ color:purple;
-   font-size: 1,6em}
+.dia{ 
+     color:purple;
+   font-size: 1,6em
+}
 .finde{ color:rgb(203, 124, 188);
-   font-size:1,6em}
-#horario{ color:purple}
-#cerrado{ color:rgb(203, 124, 188)}
-
-
-
-/*Clase 5*/
-input{
-    border: 2px purple solid;
+        font-size:1,6em
 }
-.enviar{
+#horario{ color:purple
+}
+#cerrado{ color:rgb(203, 124, 188)
+}
+
+
+
+/*Clase 5 - PAGINA FORMULARIO*/
+input{
+    border: 3px black;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    
+
+}
+.enviar{ border-radius: 10px;
+    background-color: rgb(75, 68, 77);
+    color: white;
+    display: flex;
+    width: 60px;
+    height: 30px;
+    justify-content: center;    
+    margin-right: 30px;
+
+}
+.reset{ border-radius: 10px;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+}
+.main-contacto{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+ 
+
     background-color: rgb(153, 53, 181);
     color: white;
 
