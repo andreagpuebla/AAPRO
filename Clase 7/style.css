@@ -1,0 +1,124 @@
+/*MEDIA QUERIES*/
+@media (max-width: 320px) {
+    #cajas {
+        display: flex;
+        display: grid;
+        grid-column: 1;
+        grid-row-gap: 10px;
+    }
+    .caja2{
+        order: 1
+    }
+    .caja1{
+        order: 3
+    }
+    .caja3{
+        order:2
+    }
+
+    .caja4,
+    .caja5,
+    .caja6,
+    .caja7,
+    .caja8,
+    .caja9 {
+        display: none;
+    }
+
+}
+@media (min-width: 321px) and (max-width: 768px) {
+
+    #cajas{
+        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    .caja7,.caja8,.caja9{
+        display: none;
+    }
+    .caja1{
+        order: 3;
+    }
+    .caja2{
+        order: 4;
+    
+    }
+    .caja3{
+        order: 1;
+    }
+    .caja4{
+        order: 6;
+    }
+    .caja5{
+        order:2;
+    }
+    .caja6{
+        order: 5;
+    }
+
+}
+
+@media (min-width: 769px){
+    #cajas{
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+    }
+
+}
+
+
+/*Cajas*/
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#cajas {
+    margin: 10px;
+    width: 100%;
+    height: 900px;
+    display: grid;
+}
+
+/*para pantalla gde */
+.caja1 {
+    background-color: red;
+}
+
+.caja2 {
+    background-color: blue;
+}
+
+.caja3 {
+    background-color: purple;
+}
+
+.caja4 {
+    background-color: green;
+}
+
+.caja5 {
+    background-color: yellow;
+}
+
+.caja6 {
+    background-color: orangered;
+}
+
+.caja7 {
+    background-color: brown;
+}
+
+.caja8 {
+    background-color: gray;
+}
+
+.caja9 {
+    background-color: black;
+}
